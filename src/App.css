@@ -1,0 +1,73 @@
+.pizza-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.pizza-image {
+  position: relative;
+}
+
+.pizza-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.hit-season {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: red;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+h2 {
+  margin: 16px 0 8px;
+}
+
+.pizza-options {
+  margin-bottom: 16px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.quantity-control button {
+  padding: 8px 16px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  background: green;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cart-image {
+  width: 24px;
+  height: 24px;
+  margin-left: 0px;
+}
+
+.diameter {
+  max-width: 150px;
+  padding: 10px;
+  font-size: 16px;
+}
